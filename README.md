@@ -5,6 +5,9 @@
 INFINITALKS, teknoloji dünyasından haberleri ve gönderileri paylaşmak için kullanılan bir sosyal blog sitesidir. MERN mimarisini kullanan uygulama, kullanıcıların kayıt olup giriş yapmasına, haberleri ve gönderileri paylaşmasına, başka kullanıcıların paylaştıklarını okumasına ve düzenlemesine olanak tanır.
 
 ## Uygulamanın Videosu
+<p align="center">
+  <img src="https://github.com/Mertalkann/Portfolio-site/blob/main/image.gif" alt="Web">
+</p>
 
 ## Teknik Detaylar
 
