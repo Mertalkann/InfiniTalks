@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+## Create React App ile Başlangıç
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bu proje, Create React App ile oluşturuldu.
 
-## Available Scripts
-
-In the project directory, you can run:
-
+## Kullanılabilir Komutlar
+Proje dizininde şu komutları çalıştırabilirsiniz:
 ### `yarn start`
+Uygulamayı geliştirme modunda çalıştırır. Tarayıcınızda görüntülemek için http://localhost:3000 adresini açın.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Değişiklik yaptığınızda sayfa yeniden yüklenecektir. Konsolda olası lint hatalarını da görebilirsiniz.
 
 ### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Test çalıştırıcısını etkileşimli izleme modunda başlatır. Daha fazla bilgi için test çalıştırma: https://facebook.github.io/create-react-app/docs/running-tests bölümüne bakın.
 
 ### `yarn build`
+Uygulamayı üretim için build klasörüne oluşturur. React'i üretim modunda doğru şekilde paketler ve en iyi performans için yapıyı optimize eder.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Oluşturulan dosya küçültülür ve dosya adları karmaları içerir. Uygulamanız dağıtıma hazır!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Daha fazla bilgi için dağıtım: https://facebook.github.io/create-react-app/docs/deployment bölümüne bakın.
 
 ### `yarn eject`
+**Not: Bu tek yönlü bir işlemdir. Bir kez `eject` yaptığınızda geri dönemezsiniz!**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Derleme aracı ve yapılandırma seçeneklerinden memnun değilseniz, istediğiniz zaman `eject` yapabilirsiniz. Bu komut, projenizden tek derleme bağımlılığını kaldıracaktır.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Bunun yerine, tüm yapılandırma dosyalarını ve geçişli bağımlılıkları (webpack, Babel, ESLint, vb.) doğrudan projenize kopyalar, böylece onlar üzerinde tam kontrol sahibi olursunuz. `eject` komutu dışındaki tüm komutlar çalışmaya devam eder, ancak değiştirilebilmeleri için kopyalanan komut dosyalarını işaret ederler. Artık kendi başınızasınız.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+`eject` komutunu kullanmak zorunda değilsiniz. Özenle seçilmiş özellik seti, küçük ve orta ölçekli dağıtımlar için uygundur ve bu özelliği kullanmak zorunda hissetmemelisiniz. Ancak, hazır olduğunuzda özelleştiremeseydiniz bu aracın kullanışlı olmayacağının farkındayız.
