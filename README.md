@@ -6,7 +6,7 @@ INFINITALKS, teknoloji dünyasından haberleri ve gönderileri paylaşmak için 
 
 ## Uygulamanın Videosu
 <p align="center">
-  <img src="https://github.com/Mertalkann/Portfolio-site/blob/main/image.gif" alt="Web">
+  <img src="https://github.com/Mertalkann/InfiniTalks/blob/main/client/src/img/video.gif" alt="gif">
 </p>
 
 ## Teknik Detaylar
