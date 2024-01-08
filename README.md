@@ -4,6 +4,8 @@
 
 INFINITALKS, teknoloji dünyasından haberleri ve gönderileri paylaşmak için kullanılan bir sosyal blog sitesidir. MERN mimarisini kullanan uygulama, kullanıcıların kayıt olup giriş yapmasına, haberleri ve gönderileri paylaşmasına, başka kullanıcıların paylaştıklarını okumasına ve düzenlemesine olanak tanır.
 
+## Uygulamanın Videosu
+
 ## Teknik Detaylar
 
 Uygulama, MongoDB veritabanı üzerinde çalışır. Kullanıcı kayıtları, şifreler bcrypt ile şifrelenerek veritabanına kaydedilir. Arka uç işlemleri Express ve Node.js ile yapılır.
@@ -46,7 +48,7 @@ Gönderilen haberlerin ve gönderilerin bilgileri (resim, yazı, başlık, bağl
 
 * Projenin adı: INFINITALKS
 * Projenin sahibi: Mertcan Alkan
-* Projenin URL'si: [https://github.com/](https://github.com/Mertalkann/InfiniTalks](https://github.com/Mertalkann/InfiniTalks)
+* Projenin URL'si: https://github.com/Mertalkann/InfiniTalks
 * Lisans: MIT
 * İletişim: mertalkan00@gmail.com üzerinden iletişime geçebilirsiniz.
 * Değişiklikler: Bu README dosyası, projenin gelişimine paralel olarak güncellenecektir.
